@@ -61,10 +61,6 @@ Description soon.
 // ...
 ```
 
-## Contributing
-
-Please see [CONTRIBUTING](.github/CONTRIBUTING.md) and [CONDUCT](.github/CONDUCT.md) for details.
-
 ## License
 
 This library is open-sourced software licensed under [MIT license](LICENSE.md).
