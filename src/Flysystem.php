@@ -28,7 +28,7 @@ class Flysystem
     protected $mounts;
 
     /**
-     * Create new Projek\Slim\Flysystem instance
+     * Create new fussraider\Slim\Flysystem instance
      *
      * @param string[] $settings
      */

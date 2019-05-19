@@ -1,5 +1,5 @@
 <?php
-namespace Projek\Slim\Tests;
+namespace fussraider\Slim\Tests;
 
 use League\Flysystem\FilesystemInterface;
 

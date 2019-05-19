@@ -1,8 +1,8 @@
 <?php
-namespace Projek\Slim\Tests;
+namespace fussraider\Slim\Tests;
 
 use Slim\App;
-use Projek\Slim\FlysystemProvider;
+use fussraider\Slim\FlysystemProvider;
 use League\Flysystem\FilesystemInterface;
 
 class FlysystemProviderTest extends TestCase

@@ -1,19 +1,22 @@
 {
-    "name": "projek-xyz/slim-flysystem",
+    "name": "fussraider/slim-flysystem",
     "description": "Access your Slim 3 application file system using FlySystem.",
     "keywords": ["slim", "microframework", "framework", "filesystem", "flysystem", "library"],
-    "homepage": "http://www.projek.xyz/slim-flysystem",
     "type": "library",
     "license": "MIT",
     "authors": [
         {
             "name": "Fery Wardiyanto",
             "email": "feryardiyanto@gmail.com"
+        },
+        {
+            "name": "Constantine Avdeev",
+            "email": "me@fussraider.ru"
         }
     ],
     "support": {
-        "issues": "https://github.com/projek-xyz/slim-flysystem/issues",
-        "source": "https://github.com/projek-xyz/slim-flysystem"
+        "issues": "https://github.com/fussraider/slim-flysystem/issues",
+        "source": "https://github.com/fussraider/slim-flysystem"
     },
     "scripts": {
         "test": "./vendor/bin/phpunit -c tests/phpunit.xml",
@@ -21,12 +24,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Projek\\Slim\\": "src/"
+            "fussraider\\Slim\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Projek\\Slim\\Tests\\": "tests/src/"
+            "fussraider\\Slim\\Tests\\": "tests/src/"
         }
     },
     "require": {

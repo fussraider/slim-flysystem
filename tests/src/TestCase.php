@@ -1,13 +1,13 @@
 <?php
-namespace Projek\Slim\Tests;
+namespace fussraider\Slim\Tests;
 
-use Projek\Slim\Flysystem;
+use fussraider\Slim\Flysystem;
 use PHPUnit_Framework_TestCase;
 
 abstract class TestCase extends PHPUnit_Framework_TestCase
 {
     /**
-     * @var \Projek\Slim\FlySystem
+     * @var \fussraider\Slim\FlySystem
      */
     protected $fs;
 
