@@ -1,5 +1,5 @@
 <?php
-namespace Projek\Slim;
+namespace fussraider\Slim;
 
 use League\Flysystem\Filesystem;
 use League\Flysystem\MountManager;

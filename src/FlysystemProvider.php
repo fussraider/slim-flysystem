@@ -1,5 +1,5 @@
 <?php
-namespace Projek\Slim;
+namespace fussraider\Slim;
 
 use Pimple\Container;
 use Pimple\ServiceProviderInterface;
