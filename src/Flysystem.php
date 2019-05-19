@@ -275,6 +275,19 @@ class Flysystem
     }
 
     /**
+     * Check if a file exists
+     *
+     * @param $path
+     * @return bool
+     */
+    public function has($path)
+    {
+        $filesystem = $this->fs ?: $this->mounts;
+
+        return $filesystem->has($path);
+    }
+
+    /**
      * Copy a file.
      *
      * @param  string $path    Path to the existing file.
